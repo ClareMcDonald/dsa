@@ -8,7 +8,9 @@ function reverseWords(sentence) {
     })
     .join(' ');
 }
+
 console.log(reverseWords('They are good'));
+
 
 // CH02 Title Case Words
 function titleCase(sentence) {
@@ -19,7 +21,9 @@ function titleCase(sentence) {
     })
     .join(' ');
 }
+
 console.log(titleCase('tILLY iS gREAT'));
+
 
 // CH02.1 Oddish Evenish
 function oddishOrEvenish(number) {
@@ -34,6 +38,7 @@ function oddishOrEvenish(number) {
 
 console.log(oddishOrEvenish(121));
 console.log(oddishOrEvenish(41));
+
 
 // CH02.2 At
 function at(arr, index) {
